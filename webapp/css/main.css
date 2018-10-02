@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+header {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 2.5em;
+  color: white;
+  z-index: 1;
+}
+header #project_title {
+  float: left;
+  padding-top: 0.8em;
+  padding-left: 0.3em;
+  color: orange;
+  font-family: Arial;
+  font-size: 1em;
+}
+header #logo {
+  float: left;
+  font-family: 'Bree Serif', serif;
+  font-size: 1.3em;
+  padding: 0.3em;
+  text-decoration: none;
+}
+header #logo:hover {
+  background-color: grey;
+}
+header #logo:visited {
+  color: white;
+}
+header #user_menu {
+  font-family: 'Open Sans', sans-serif;
+  font-family: Arial;
+  float: right;
+}
+header #user_menu span {
+  font-size: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: 0.8em;
+  float: left;
+}
+header #user_menu img {
+  float: right;
+  height: 2.5em;
+}
+header #user_menu:hover {
+  background-color: grey;
+}
+#project_list {
+  margin: 1em;
+  margin-top: 3.5em;
+  font-family: Arial;
+}
+#project_list .new_project {
+  font-size: 1.1em;
+  width: 30em;
+  padding: 0.7em;
+  color: black;
+  background-color: grey;
+  margin-bottom: 2em;
+}
+#project_list .new_project input[type=text] {
+  padding: 0;
+  height: 30px;
+  position: relative;
+  left: 0;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: white;
+  font-size: 20px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#project_list #project_invites {
+  display: none;
+}
+#project_list .project {
+  color: white;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  margin-right: 1em;
+  height: 8em;
+  width: 15em;
+  background-color: grey;
+}
+#project_list .project h2 {
+  color: black;
+}
+#project_list .project a {
+  color: black;
+  background-color: orange;
+  text-decoration: none;
+  padding: 0.4em;
+  margin-right: 0.5em;
+}
+#project_list .project a:hover {
+  color: white;
+  background-color: black;
+}
+#project_list .notice {
+  background-color: grey;
+  color: black;
+  padding: 0.5em;
+}
+.cancel_btn {
+  background: #3e3f42;
+  font-family: Arial;
+  color: orange;
+  border: 0;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn {
+  font-family: Arial;
+  color: black;
+  border: 0;
+  font-size: 1em;
+  background: orange;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+.cancel_btn:hover {
+  background: red;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #d6d6d6;
+  text-decoration: none;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  scrollbar-track-color: #b8c0c8;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.fb_login {
+  height: 40px;
+}

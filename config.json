@@ -1,0 +1,12 @@
+{
+  "db": {
+    "username":"",
+    "password":"",
+    "name":"",
+    "port":""
+  },
+  "facebook": {
+    "clientSecret":"",
+    "clientID": ""
+  }
+}

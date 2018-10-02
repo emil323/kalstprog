@@ -1,0 +1,2 @@
+nodemon kalstprog.js
+PAUSE

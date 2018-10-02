@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>
+
+
+	var loginCallBack = function() {
+			window.location.replace("http://158.36.13.191:3000");
+	}
+
+     function fb_login() {
+		var x = screen.width/2 - 700/2;
+		var y = screen.height/2 - 450/2;
+		window.open("http://158.36.13.191:3000/auth/facebook", '_blank', 'location=yes,height=300,width=500,left='+x+',top='+y +',scrollbars=no,status=yes');
+   }
+
+</script>
+	<h1>Test</h1>
+	<a  href="#"><img class="fb_login" onclick="fb_login()" src="/img/fb_login.png"></a>
+</body>
+
+</html>

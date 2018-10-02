@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#project_space {
+  margin-top: 2.2em;
+  background-color: black;
+  color: white;
+}
+#editor_space {
+  margin-top: 2.2em;
+  height: 100%;
+  width: 100%;
+  background-color: #383838;
+  margin-left: 15em;
+  margin-right: 15em;
+}
+#editor_space #name_pointer {
+  font-family: 'Open Sans', sans-serif;
+  display: none;
+  opacity: 0.8;
+  background-color: orange;
+  font-size: 0.9em;
+  height: 1em;
+  padding: 0.1em;
+  padding-bottom: 0.3em;
+  position: fixed;
+  z-index: 2;
+}
+#editor_space #editors .active {
+  display: block;
+  position: absolute;
+  top: 3.2em;
+  right: 18em;
+  bottom: 0.9em;
+  left: 16.3em;
+}
+#editor_space #editors .hidden {
+  display: none;
+}
+#editor_space #dashboard {
+  font-family: 'Open Sans', sans-serif;
+  color: #e2e2e2;
+  padding-top: 4em;
+  padding-left: 2em;
+}
+#editor_space #dashboard p {
+  color: black;
+}
+#com_explorer {
+  font-family: 'Open Sans', sans-serif;
+  width: 15em;
+  height: 100%;
+  position: fixed;
+  padding-top: 3em;
+  font-size: 1.1em;
+  right: 0;
+  bottom: 0;
+  background-color: #131314;
+  z-index: 0;
+}
+#com_explorer #chat_messages {
+  background-color: #131314;
+  width: 100%;
+  margin-right: 1em;
+  top: 4em;
+  bottom: 4em;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#com_explorer #chat_messages .chat_name {
+  position: relative;
+  color: grey;
+  margin-left: 1em;
+  font-size: 0.6em;
+  bottom: 0.8em;
+}
+#com_explorer #chat_messages .chat_message {
+  width: 17em;
+  font-size: 0.7em;
+  padding: 0.8em;
+  background-color: grey;
+  color: black;
+  margin-top: 0.3em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-bottom: 0.9em;
+  word-break: break-all;
+}
+#com_explorer #chat_messages .chat_message_own {
+  width: 17em;
+  font-size: 0.7em;
+  padding: 0.8em;
+  background-color: #a5a9af;
+  color: black;
+  margin-top: 0.3em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-bottom: 0.9em;
+  word-break: break-all;
+}
+#com_explorer #chat_messages img {
+  width: 1.5em;
+  margin-left: 1.2em;
+  border-radius: 50%;
+}
+#com_explorer #send_chat {
+  background-color: black;
+  width: 100%;
+  height: 3em;
+  bottom: 0;
+  position: fixed;
+  padding-top: 2em;
+  padding: 0.5em;
+}
+#com_explorer #send_chat #new_chat_msg {
+  width: 18em;
+  padding: 0.5em;
+  font-size: 0.7em;
+}
+#file_explorer {
+  font-family: 'Open Sans', sans-serif;
+  color: #c9c9cc;
+  background-color: #131314;
+  position: fixed;
+  margin-top: 2.4em;
+  padding-top: 0.5em;
+  width: 15em;
+  height: 100%;
+  font-size: 1em;
+}
+#file_explorer .btn {
+  float: right;
+  background-color: #58585b;
+  font-size: 0.7em;
+  padding: 0.3em;
+  margin-left: 0.4em;
+  margin-right: 1em;
+}
+#file_explorer .btn:hover {
+  background-color: lightblue;
+  color: black;
+}
+#connected_users {
+  padding-left: 1em;
+}
+#connected_users img {
+  margin-top: 0.4em;
+  margin-left: 0;
+  width: 1.5em;
+  border-bottom: 3px solid grey;
+}
+#connected_users .active {
+  border-color: green;
+}
+footer {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  font-size: 0.7em;
+  position: fixed;
+  height: 2em;
+  background-color: #161a21;
+  color: white;
+  bottom: 0;
+  left: 21.3em;
+  right: 23.5em;
+  text-align: right;
+}
+#tabs {
+  position: fixed;
+}
+#tab_content {
+  height: 100%;
+  background-color: grey;
+}
+.w2ui-tabs {
+  background-color: #161a21;
+  margin-left: 0em;
+}
+.w2ui-tabs table {
+  border-color: #161a21;
+}
+.w2ui-tabs .w2ui-tab {
+  font-family: 'Open Sans', sans-serif;
+  color: #c9c9cc;
+  border-color: black;
+  border-radius: 0px;
+  border: none;
+}
+.w2ui-tabs .w2ui-tab:hover {
+  background-color: #141516;
+  border-radius: 0px;
+  border-bottom: none;
+}
+.w2ui-tabs .w2ui-tab.active {
+  border-radius: 0px;
+  border: none;
+  background-color: grey;
+  color: black;
+}
+.w2ui-tabs .w2ui-tab-close {
+  color: white;
+}
+.w2ui-tabs .w2ui-tab-close:hover {
+  color: red;
+}
